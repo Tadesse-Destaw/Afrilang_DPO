@@ -2,6 +2,198 @@
   "identity": {
     "file_name": "identity.json"
   },
+  "afridpo_main": {
+    "hf_hub_url": "israel/dpo",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected"
+    }
+  },
+  "afridpo_main_rgemma-2-2b-it": {
+    "hf_hub_url": "israel/dpo",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected_google__gemma-2-2b-it"
+    }
+  },
+  "afridpo_main_rgemma-3-27b-it": {
+    "hf_hub_url": "israel/dpo",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected_google__gemma-3-27b-it"
+    }
+  },"afridpo_main_rLlama-3.2-1B-Instruct": {
+    "hf_hub_url": "israel/dpo",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected_meta-llama__Llama-3.2-1B-Instruct"
+    }
+  },"afridpo_main_rLlama-3-70B-Instruct": {
+    "hf_hub_url": "israel/dpo",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "rejected_meta-llama__Meta-Llama-3-70B-Instruct"
+    }
+  },
+  "fineweb2-merged": {
+    "hf_hub_url": "israel/fineweb2-merged",
+    "columns": {
+      "prompt": "text"
+    }
+  },"amharic-story-qa-eng": {
+    "hf_hub_url": "israel/AmharicStoryQA",
+    "split": "english",
+    "columns": {
+      "prompt": "input",
+      "response": "response"
+    }
+  },"amharic-story-qa-amh": {
+    "hf_hub_url": "israel/AmharicStoryQA",
+    "split": "amharic",
+    "columns": {
+      "prompt": "input",
+      "response": "response"
+    }
+  },
+  "gsm8k-math-english": {
+    "hf_hub_url": "israel/gsm8k_localized",
+    "columns": {
+      "prompt": "english",
+      "response": "answer"
+    }
+  },
+  "gsm8k-math-translated": {
+    "hf_hub_url": "israel/gsm8k_localized",
+    "columns": {
+      "prompt": "modified_english",
+      "response": "answer"
+    }
+  },
+  "gsm8k-math-models-translated": {
+    "hf_hub_url": "israel/gsm8k_localized",
+    "columns": {
+      "prompt": "native",
+      "response": "answer"
+    }
+  },
+  "gsm8k-math-localized": {
+    "hf_hub_url": "israel/gsm8k_localized",
+    "columns": {
+      "prompt": "modified_native",
+      "response": "answer"
+    }
+  },
+  "combined-wura": {
+    "hf_hub_url": "israel/combined-wura",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "AfriDocMT-instructions": {
+    "hf_hub_url": "israel/AfriDocMT-instructions",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "prompt",
+      "query": "input",
+      "response": "output"
+    }
+  }
+  ,
+  "african_alpaca": {
+    "hf_hub_url": "masakhane/african-translated-alpaca",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "african-ultrachat": {
+    "hf_hub_url": "masakhane/african-ultrachat",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },"fineweb-edu": {
+    "hf_hub_url": "HuggingFaceFW/fineweb-edu",
+    "subset":"sample-10BT",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "aya_collection_ultrachat_format_with_templated_masakhanews": {
+    "hf_hub_url": "israel/aya_collection_ultrachat_format_with_templated_masakhanews",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "aya_ultrachat_format_with_lang": {
+    "hf_hub_url": "israel/aya_ultrachat_format_with_lang",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "aya_collection_ultrachat_format_with_templated_amharic_qa": {
+    "hf_hub_url": "israel/aya_collection_ultrachat_format_with_templated_amharic_qa",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
+  "aya_collection_ultrachat_format_with_lang_templated_afriqa": {
+    "hf_hub_url": "israel/aya_collection_ultrachat_format_with_lang_templated_afriqa",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "alpaca_en_demo": {
     "file_name": "alpaca_en_demo.json"
   },

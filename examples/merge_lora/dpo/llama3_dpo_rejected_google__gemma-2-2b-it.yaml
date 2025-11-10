@@ -1,0 +1,12 @@
+### model
+model_name_or_path: meta-llama/Meta-Llama-3-8B-Instruct
+adapter_name_or_path: saves/llama3-8b/lora/dpo_afridpo_main_rgemma-2-2b-it
+template: llama3
+trust_remote_code: true
+
+### export
+export_dir: output/llama3-8b
+export_size: 5
+export_device: auto  # choices: [cpu, auto]
+export_legacy_format: false
+export_hub_model_id: israel/llama3-dpo-dpo_afridpo_main_rgemma-2-2b-it
