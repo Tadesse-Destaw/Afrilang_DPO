@@ -1,0 +1,12 @@
+### model
+model_name_or_path: google/gemma-3-12b-it
+adapter_name_or_path: saves/gemma3-12b/lora/dpo_llama_reject
+template: llama3
+trust_remote_code: true
+
+### export
+export_dir: output/gemma3-12b-dpo-rllama
+export_size: 5
+export_device: auto  # choices: [cpu, auto]
+export_legacy_format: false
+export_hub_model_id: afrilang/gemma3-12b-dpo-rllama
