@@ -155,8 +155,8 @@
       "assistant_tag": "assistant"
     }
   },
-  "aya_ultrachat_format_with_lang": {
-    "hf_hub_url": "israel/aya_ultrachat_format_with_lang",
+  "afrilang_sft": {
+    "hf_hub_url": "afrilang/multiturn_sft",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages"
