@@ -2,6 +2,19 @@
   "identity": {
     "file_name": "identity.json"
   },
+  "afrilang_sft": {
+    "hf_hub_url": "afrilang/multiturn_sft",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "dialogue"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant"
+    }
+  },
   "afridpo_llama_reject": {
     "hf_hub_url": "afrilang/dpo",
     "ranking": true,
@@ -144,19 +157,6 @@
   },
   "aya_collection_ultrachat_format_with_templated_masakhanews": {
     "hf_hub_url": "israel/aya_collection_ultrachat_format_with_templated_masakhanews",
-    "formatting": "sharegpt",
-    "columns": {
-      "messages": "messages"
-    },
-    "tags": {
-      "role_tag": "role",
-      "content_tag": "content",
-      "user_tag": "user",
-      "assistant_tag": "assistant"
-    }
-  },
-  "afrilang_sft": {
-    "hf_hub_url": "afrilang/multiturn_sft",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages"
