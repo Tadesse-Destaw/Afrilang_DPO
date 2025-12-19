@@ -12,4 +12,3 @@ llamafactory-cli train examples/train_lora/llama3_lora_sft.yaml
 llamafactory-cli export examples/merge_lora/llama3_lora_sft.yaml
 llamafactory-cli train examples/train_lora/gemma3_lora_sft.yaml
 llamafactory-cli export examples/merge_lora/gemma3_lora_sft.yaml
-

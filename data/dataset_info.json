@@ -5,6 +5,7 @@
   "afrilang_sft": {
     "hf_hub_url": "afrilang/multiturn_sft",
     "formatting": "sharegpt",
+    "split": "train",
     "columns": {
       "messages": "dialogue"
     },
