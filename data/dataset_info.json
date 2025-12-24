@@ -23,7 +23,7 @@
     "columns": {
       "messages": "conversations",
       "chosen": "chosen",
-      "rejected": "Llama-3.2-1B-Instruct"
+      "rejected": "Llama-3.1-8B-Instruct"
     }
   },
   "afridpo_gemma_reject": {
