@@ -5,8 +5,8 @@ template: llama3
 trust_remote_code: true
 
 ### export
-export_dir: output/llama3-8b-dpo_rllama
+export_dir: output/llama3-8b-dpo_param_gemma-2-2b-it
 export_size: 5
 export_device: auto  # choices: [cpu, auto]
 export_legacy_format: false
-export_hub_model_id: afrilang/llama3-8b-dpo_rgemma
+export_hub_model_id: afrilang/llama3-8b-dpo_param_gemma-2-2b-it
