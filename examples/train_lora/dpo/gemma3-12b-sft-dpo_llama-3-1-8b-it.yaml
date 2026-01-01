@@ -21,7 +21,7 @@ preprocessing_num_workers: 16
 dataloader_num_workers: 4
 
 ### output
-output_dir: saves/gemma3-12b/lora/gemma3-12b-sft-dpo_llama-3.1-8b-it
+output_dir: saves/gemma3-12b/lora/gemma3-12b-sft-dpo
 logging_steps: 10
 save_steps: 1000
 plot_loss: true
