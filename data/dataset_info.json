@@ -3,7 +3,7 @@
     "file_name": "identity.json"
   },
   "afrilang_sft": {
-    "hf_hub_url": "afrilang/multiturn_sft",
+    "hf_hub_url": "afrilang/multiturn_sft_influence",
     "formatting": "sharegpt",
     "split": "train",
     "columns": {
