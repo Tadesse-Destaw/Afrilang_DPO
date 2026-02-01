@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export FORCE_TORCHRUN=1
+# export FORCE_TORCHRUN=1
 # dpo param efficient
 # llamafactory-cli train examples/train_lora/dpo/llama3_dpo_llama_rllama.yaml
 # llamafactory-cli export examples/merge_lora/dpo/llama3_dpo_llama_rllama.yaml
