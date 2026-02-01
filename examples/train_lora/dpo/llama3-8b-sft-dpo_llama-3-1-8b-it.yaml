@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: afrilang/llama3-8b-sft
+model_name_or_path: afrilang/llama3-8b-full-sft
 trust_remote_code: true
 
 ### method
@@ -21,7 +21,7 @@ preprocessing_num_workers: 16
 dataloader_num_workers: 4
 
 ### output
-output_dir: saves/llama3-8b/lora/llama3-8b-sft-dpo
+output_dir: saves/llama3-8b/lora/llama3-8b-full-sft-dpo_llama-3-1-8b-it
 logging_steps: 10
 save_steps: 1000
 plot_loss: true
