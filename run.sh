@@ -15,19 +15,16 @@
 # llamafactory-cli export examples/merge_lora/dpo/llama3_dpo_gemma_rgemma.yaml
 
 
-
-
-
 # llamafactory-cli train examples/train_lora/dpo/gemma3-12b-sft-dpo_gemma-2-2b-it.yaml
 # llamafactory-cli export examples/merge_lora/dpo/gemma3-12b-sft-dpo_gemma-2-2b-it.yaml
 
 
 #sft+dpo default params
-llamafactory-cli train train examples/train_lora/dpo/llama3-8b-sft-dpo_llama-3-1-8b-it.yaml
+llamafactory-cli train examples/train_lora/dpo/llama3-8b-sft-dpo_llama-3-1-8b-it.yaml
 llamafactory-cli export examples/merge_lora/dpo/llama3-8b-sft-dpo_llama-3-1-8b-it.yaml
 
-llamafactory-cli train examples/train_lora/dpo/llama3-8b-sft-dpo_gemma-2-2b-it.yaml
-llamafactory-cli export examples/merge_lora/dpo/llama3-8b-sft-dpo_gemma-2-2b-it.yaml
+# llamafactory-cli train examples/train_lora/dpo/llama3-8b-sft-dpo_gemma-2-2b-it.yaml
+# llamafactory-cli export examples/merge_lora/dpo/llama3-8b-sft-dpo_gemma-2-2b-it.yaml
 # llamafactory-clitrain train examples/train_lora/dpo/gemma3-12b-sft-dpo_llama-3-1-8b-it.yaml
 # llamafactory-cli export examples/merge_lora/dpo/gemma3-12b-sft-dpo_llama-3-1-8b-it.yaml
 
