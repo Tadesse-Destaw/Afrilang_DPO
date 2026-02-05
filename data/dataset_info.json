@@ -26,6 +26,26 @@
       "rejected": "Llama-3.1-8B-Instruct"
     }
   },
+  "afridpo_llama_sft_reject": {
+    "hf_hub_url": "afrilang/llama3-8b-sft_self_dpo",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "llama3-8b-sft"
+    }
+  },
+  "afridpo_llama_sft_full_reject": {
+    "hf_hub_url": "afrilang/llama3-8b-sft_self_dpo",
+    "ranking": true,
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "chosen": "chosen",
+      "rejected": "llama3-8b-full-sft"
+    }
+  },    
   "afridpo_gemma_reject": {
     "hf_hub_url": "afrilang/dpo",
     "ranking": true,

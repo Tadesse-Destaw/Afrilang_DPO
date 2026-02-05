@@ -20,8 +20,11 @@
 
 
 #sft+dpo default params
-llamafactory-cli train examples/train_lora/dpo/llama3-8b-sft-dpo_llama-3-1-8b-it.yaml
-llamafactory-cli export examples/merge_lora/dpo/llama3-8b-sft-dpo_llama-3-1-8b-it.yaml
+llamafactory-cli train examples/train_lora/dpo/llama3-8b-full_sft_self_dpo.yaml
+llamafactory-cli export examples/merge_lora/dpo/llama3-8b-full_sft_self_dpo.yaml
+
+llamafactory-cli train examples/train_lora/dpo/llama3-8b-lora_sft-self_dpo.yaml
+llamafactory-cli export examples/merge_lora/dpo/llama3-8b-lora_sft-self_dpo.yaml
 
 # llamafactory-cli train examples/train_lora/dpo/llama3-8b-sft-dpo_gemma-2-2b-it.yaml
 # llamafactory-cli export examples/merge_lora/dpo/llama3-8b-sft-dpo_gemma-2-2b-it.yaml
